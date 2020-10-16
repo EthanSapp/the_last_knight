@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_sword_left",
-    "path": "sprites/s_sword_left/s_sword_left.yy",
+    "name": "s_dagger_right",
+    "path": "sprites/s_dagger_right/s_dagger_right.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_sword_left","path":"objects/o_sword_left/o_sword_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects/o_weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_sword_left",
+  "name": "o_dagger_right",
   "tags": [],
   "resourceType": "GMObject",
 }

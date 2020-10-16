@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "o_sword",
-    "path": "folders/Objects/o_sword.yy",
+    "name": "o_weapons",
+    "path": "folders/Objects/o_weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_sword_right",

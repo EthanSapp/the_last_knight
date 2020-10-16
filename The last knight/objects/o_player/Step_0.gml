@@ -1,5 +1,6 @@
 image_speed = 0;
 
+
 if (keyboard_check(ord("D")) && !place_meeting(x + 2, y , o_collision)) {
 	x += 2;
 	sprite_index = s_player_right;

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "o_enemies",
+    "path": "folders/Objects/o_enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_skeleton",

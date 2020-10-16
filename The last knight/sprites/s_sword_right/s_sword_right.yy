@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0b66a14-e0ec-4588-a088-eccb688d5be2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "s_sword",
-    "path": "folders/Sprites/s_sword.yy",
+    "name": "s_weapons",
+    "path": "folders/Sprites/s_weapons.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_sword_right",
