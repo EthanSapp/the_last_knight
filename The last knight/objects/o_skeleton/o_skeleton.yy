@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_sword_left","path":"objects/o_sword_left/o_sword_left.yy",},"parent":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_sword_right","path":"objects/o_sword_right/o_sword_right.yy",},"parent":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_sword_katana_left","path":"objects/o_sword_katana_left/o_sword_katana_left.yy",},"parent":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_sword_katana_right","path":"objects/o_sword_katana_right/o_sword_katana_right.yy",},"parent":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],

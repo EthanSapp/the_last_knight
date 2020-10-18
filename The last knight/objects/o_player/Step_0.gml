@@ -46,9 +46,9 @@ y = clamp(y, 40, room_height - 40);
 
 if (keyboard_check_pressed(ord("J"))){
 	if (global.dir == 0){
-		instance_create_layer(x + 8, y - 10, "sword_layer", o_sword_right);
+		instance_create_layer(x + 8, y - 10, "sword_layer", o_sword_katana_right);
 	} else if (global.dir == 180){
-		instance_create_layer(x - 8, y - 10, "sword_layer", o_sword_left);
+		instance_create_layer(x - 8, y - 10, "sword_layer", o_sword_katana_left);
 	}
 } else {
 	//instance_destroy(o_sword_left);

@@ -1,3 +1,5 @@
+
+
 if (global.playerHP == 6){
 	sprite_index = s_full_health;
 } else if (global.playerHP == 5){
