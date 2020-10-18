@@ -47,7 +47,7 @@
     "spriteId": {"name":"s_sword_right","path":"sprites/s_sword_right/s_sword_right.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 60.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
