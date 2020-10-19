@@ -1,4 +1,4 @@
-spd = 0.75;
+spd = 1.00;
 starting_spd = 0;
 
 global.skeleton_attack = false;
@@ -14,3 +14,6 @@ attackDelay = 0.5;
 global.skeleton_attack = false;
 
 image_index = 0;
+
+hspeed_ = 0;
+vspeed_ = 0;

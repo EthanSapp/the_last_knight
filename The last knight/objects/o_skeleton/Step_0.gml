@@ -1,7 +1,41 @@
 image_speed = 0;
 
-var dir_ = 0;
+var dir_ = point_direction(x, y, o_player.x, o_player.y);
+if (distance_to_object(o_player) <= 64){
+	
+	hspeed_ = lengthdir_x(spd, dir_);
+	vspeed_ = lengthdir_y(spd, dir_);
 
+
+	if (place_meeting(x + hspeed_, y, o_collision)){
+		while (!place_meeting(x + sign(hspeed_), y, o_collision)){
+			x += sign(hspeed_);
+		}
+		hspeed_ = 0;
+	}
+
+	x += hspeed_;
+
+	if (hspeed_ < 0){
+		sprite_index = s_skeleton_left;
+		image_speed = 1;
+	} else if (hspeed_ > 0){
+		sprite_index = s_skeleton_right;
+		image_speed = 1;
+	} else if(hspeed_ = 0){
+		image_index = 0;
+	}
+
+	if (place_meeting(x, y + vspeed_, o_collision)){
+		while (!place_meeting(x, y + sign(vspeed_), o_collision)){
+			y += sign(vspeed_);
+		}
+		vspeed_ = 0;
+	}
+
+	y += vspeed_;
+}
+/*
 if (!place_meeting(x, y, o_collision) && instance_exists(o_player)){
 	if (distance_to_object(o_player) < 64){
 		if (o_player.x > o_skeleton.x){
@@ -26,7 +60,7 @@ if (!place_meeting(x, y, o_collision) && instance_exists(o_player)){
 		image_index = 0;
 		global.skeleton_attack = true;
 	}
-}
+}*/
 
 
 /*global.skeleton_attack = false;

@@ -1,4 +1,4 @@
-instance_create_layer(x + 6, y - 8, "sword_layer", o_dagger_right);
+//instance_create_layer(x + 6, y - 8, "sword_layer", o_dagger_right);
 
 /*
 if (o_player.x > o_skeleton.x){
