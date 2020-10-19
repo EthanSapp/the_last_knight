@@ -36,6 +36,7 @@
     {"id":{"name":"s_five_sixth_health","path":"sprites/s_five_sixth_health/s_five_sixth_health.yy",},"order":4,},
     {"id":{"name":"o_sword_of_greatness_right","path":"objects/o_sword_of_greatness_right/o_sword_of_greatness_right.yy",},"order":4,},
     {"id":{"name":"s_player_left","path":"sprites/s_player_left/s_player_left.yy",},"order":1,},
+    {"id":{"name":"skeleton_attack_","path":"scripts/skeleton_attack_/skeleton_attack_.yy",},"order":1,},
     {"id":{"name":"s_skeleton_left","path":"sprites/s_skeleton_left/s_skeleton_left.yy",},"order":1,},
     {"id":{"name":"o_chest","path":"objects/o_chest/o_chest.yy",},"order":8,},
     {"id":{"name":"scr_skeleton_attack_delay","path":"scripts/scr_skeleton_attack_delay/scr_skeleton_attack_delay.yy",},"order":0,},

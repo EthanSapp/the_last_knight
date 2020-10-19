@@ -1,7 +1,7 @@
 image_speed = 0;
 
 var dir_ = point_direction(x, y, o_player.x, o_player.y);
-if (distance_to_object(o_player) <= 64){
+if (distance_to_object(o_player) <= 64 && distance_to_object(o_player) > 5){
 	
 	hspeed_ = lengthdir_x(spd, dir_);
 	vspeed_ = lengthdir_y(spd, dir_);
@@ -19,11 +19,13 @@ if (distance_to_object(o_player) <= 64){
 	if (hspeed_ < 0){
 		sprite_index = s_skeleton_left;
 		image_speed = 1;
+		dir = 0;
 	} else if (hspeed_ > 0){
 		sprite_index = s_skeleton_right;
 		image_speed = 1;
 	} else if(hspeed_ = 0){
 		image_index = 0;
+		dir = 180;
 	}
 
 	if (place_meeting(x, y + vspeed_, o_collision)){
@@ -35,6 +37,11 @@ if (distance_to_object(o_player) <= 64){
 
 	y += vspeed_;
 }
+
+
+
+
+
 /*
 if (!place_meeting(x, y, o_collision) && instance_exists(o_player)){
 	if (distance_to_object(o_player) < 64){
