@@ -12,3 +12,5 @@ attackCounter = 0;
 attackDelay = 0.5;
 
 global.skeleton_attack = false;
+
+image_index = 0;
